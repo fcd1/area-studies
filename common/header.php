@@ -52,6 +52,11 @@
   <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
   <div id="wrap">
     <h1 class="head" style="color:#fff;"><span class="headSquare">&nbsp;</span>&nbsp;
-      <?php echo metadata('exhibit','title'); ?>
+    <?php
+    $exhibit = get_current_record('exhibit', false);
+    if ($exhibit) {
+      echo metadata('exhibit','title');
+    }
+    ?>
     </h1>
 
