@@ -43,10 +43,24 @@ a:hover {color: #e67912; text-decoration: underline;}
 
 /* == Structure == */
 
-#wrap {width:950px; margin:0px auto; overflow:hidden;background-color:#fff;border-bottom:1px solid #fff;}
+#wrap {
+	width:1190px;
+	margin:0px auto;
+	overflow:hidden;
+	background-color:#fff;
+	border-bottom:1px solid #fff;
+}
 #header {clear: both;padding:0; margin: 0;overflow: hidden;}
 #exhibit-nav {float: left;width: 164px;padding: 0 18px;background:#fff;}
-#content {float: right;overflow: hidden;min-height:400px;width: 713px; padding:0 18px; border-left: 1px solid #c7b5a2;background:#fff;}
+#content {
+	float: right;
+	overflow: hidden;
+	min-height: 400px;
+	width: 900px;
+	padding: 0 18px;
+	border-left: 1px solid #c7b5a2;
+	background: #fff;
+}
 #footer {clear: both;padding:0;margin:0;margin-top:5px;color:#fff;background-color:#2d2a62;font-size:11px;min-height:18px;vertical-align:middle; border-top:1px solid #eee;}
 	#footer a {color: #fff;}
 	#footer a:visited {color: #fff;}
@@ -467,6 +481,7 @@ p.copyright-footer a {
   width: 25%;
   float: left;
   margin: 2%;
+  text-align: center;
 }
 
 .layout-gallery .exhibit-item.exhibit-gallery-item .link-to-item-page {
