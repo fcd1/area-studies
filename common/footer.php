@@ -1,5 +1,5 @@
 </div><!--end id="wrap"-->
-<p class="footer11px">Area Studies Library / Lehman Library / 420 West 118th Street / New York, NY 10027 / (212) 854-3630 / <a href="mailto:area@libraries.cul.columbia.edu">area@libraries.cul.columia.edu</a></p>
+<p class="footer11px">Global Studies / Lehman Library / 420 West 118th Street / New York, NY 10027 / (212) 854-3630 / <a href="mailto:area@libraries.cul.columbia.edu">area@libraries.cul.columia.edu</a></p>
 
 <p class="copyright-footer"> 
   <?php echo cul_copyright_information();?>
